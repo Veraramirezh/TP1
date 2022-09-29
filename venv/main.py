@@ -1,0 +1,18 @@
+#creer par Henrique Vera Ramirez
+#28 septembre 2022
+#creation d'une fonction qui compte le nombre de mots dans une chaine de caracteres
+
+#on commence par demander la question
+Q1 = str(input(" A votre tour d'ecrire une phrase !"))
+
+#definiton de la fonction qui va nous servir a compter les mots dans le programe.
+def count_word(phrase):
+    #la reponse de nombre de mots dans la phrase chosi.
+    reponse = len(phrase.split())
+#on retourne a la phrase chosi
+    return(reponse)
+#creation d'une nouvelle variable
+nmb_mots = count_word(Q1)
+
+#finalement on print la reponse pour le lecteur
+print(nmb_mots)
